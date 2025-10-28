@@ -1,0 +1,10 @@
+books = []
+
+def book_shelf(year,auther):
+    books.append({id:len(books)+1,"year":year,"auther":auther})
+    
+
+    
+book_shelf("2026","VISAL")
+book_shelf("1984","ORWELL")
+print(books)
